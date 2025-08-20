@@ -1,1 +1,29 @@
-
+{
+"inbounds": [
+{
+"port": 8080,
+"protocol": "vless",
+"settings": {
+"clients": [
+{
+"id": "8f11d0de-b05e-4330-af76-040dabef03ff",
+"level": 0
+}
+],
+"decryption": "none"
+},
+"streamSettings": {
+"network": "ws",
+"wsSettings": {
+"path": "/xfake222"
+}
+}
+}
+],
+"outbounds": [
+{
+"protocol": "freedom",
+"settings": {}
+}
+]
+}
